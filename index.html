@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilo.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet" />
+    <title>PROYECTO 2</title>
+</head>
+
+<body id="body" class="body diurno">
+    <div class="lineacolor"></div>
+    <header class="header" id="header">
+        <div class="cabecera">
+            <div class="logo" id="logo"></div>
+            <div class="menuhamburguesa" id="menuhamburguesa"></div>
+        </div>
+        <nav>
+            <ul class="menu" id="menu">
+                <li>
+                    <a id="modo" href="#"><span id="nombreModo">Modo Nocturno</span></a>
+                </li>
+                <li><a id="favo" href="favoritos.html">Favoritos</a></li>
+                <li><a id="misGI" href="misgifos.html">Mis GIFOS</a></li>
+                <li>
+                    <a id="masa" href="crear.html" class="masa">
+                        <div class="crear" id="crear"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="principal">
+        <div class="contenido">
+            <div class="texto">
+                <h1>
+                    Inspírate, busca, guarda, y crea los mejores<span class="textverde">
+              GIFOS</span
+            >
+          </h1>
+        </div>
+        <img
+          src="imagenes/ilustraheader.svg"
+          class="ilustracion"
+          alt="ilustracion"
+        />
+        <div class="busqueda" id="busqueda">
+          <input
+            type="search"
+            class="inputbusqueda"
+            id="inputbusqueda"
+            placeholder="Busca GIFOS y más"
+          />
+          <div id="contenedorsugerencias" class="contenedorsugerencias"></div>
+        </div>
+        <span class="textobusqueda" id="textobusqueda"></span>
+                    <div id="contbusqueda" class="contbusqueda"></div>
+                    <div class="vermas" id="vermas"></div>
+                    <div class="trending">
+                        <p class="trendingejemplos">Trending:</p>
+                        <p id="trensearch" class="reactions"></p>
+                    </div>
+            </div>
+            <div class="modal" id="modal">
+                <div class="cerrarmodal" id="cerrarmodal"></div>
+                <div class="imagenampliada" id="imagenampliada"></div>
+                <div class="usuariomodal" id="usuariomodal"></div>
+                <div class="titulomodal" id="titulomodal"></div>
+                <div class="descargamodal" id="descargamodal"></div>
+                <div class="corazonmodal" id="corazonmodal"></div>
+            </div>
+            <div class="trendingss" id="trendings2">
+                <div class="trendinggifos" id="trendinggifos">
+                    <p class="trendinggifostexto">Trending GIFOS</p>
+                    <p class="mira">Mira los últimos GIFOS de nuestra comunidad.</p>
+                    <div class="contenedorgifos">
+                        <div class="botonizquierda" id="botonizquierda"></div>
+                        <div class="resultadotrending"></div>
+                        <div class="botonderecha" id="botonderecha"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" id="footer">
+            <p class="compartiren">Compartir en:</p>
+            <div class="redsocial">
+                <div class="iconofacebook" id="iconofacebook"></div>
+                <div class="iconotwitter" id="iconotwitter"></div>
+                <div class="iconoinstagram" id="iconoinstagram"></div>
+            </div>
+            <p class="derechos">© GIFOS 2020 All Rights Reserved.</p>
+        </footer>
+        <div class="lineacolorfondo"></div>
+        <script src="/js/index.js"></script>
+        <script src="/js/menu.js"></script>
+        <script src="/js/modo.js"></script>
+        <script src="/js/descargar.js"></script>
+        <script src="/js/maximizar.js"></script>
+        <script src="/js/busqueda.js"></script>
+        <script src="/js/trendings.js"></script>
+        <script src="/js/favoritos.js"></script>
+        <script src="/js/misgifos.js"></script>
+</body>
+
+</html>

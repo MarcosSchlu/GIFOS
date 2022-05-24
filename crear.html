@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <title>PROYECTO 2</title>
+</head>
+
+<body id="body" class="body diurno">
+    <div class="lineacolor"></div>
+    <header class="header" id="header">
+        <div class="cabecera">
+            <div class="logo" id="logo"></div>
+            <div class="menuhamburguesa" id="menuhamburguesa"></div>
+        </div>
+        <nav>
+            <ul class="menu" id="menu">
+                <li><a id="modo" href="#"><span id="nombreModo">Modo Nocturno</span></a></li>
+                <li><a id="favo" href="favoritos.html">Favoritos</a></li>
+                <li><a id="misGI" href="misgifos.html">Mis GIFOS</a></li>
+                <li>
+                    <a id="masa" href="crear.html" class="masa">
+                        <div class="crear" id="crear"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <div class="creacion" id="creacion">
+            <div class="camara" id="camara"></div>
+            <div class="luzcamara" id="luzcamara"></div>
+            <div class="contenedorvideo" id="contenedorvideo">
+                <div class="overlayprevisualizar" id="overlayprevisualizar">Estamos subiendo tu GIFO</div>
+                <div class="descarga"></div>
+                <div class="link"></div>
+                <video class="video"></video>
+                <img src="#" class="previsualizar ocultar" id="previsualizar" alt="previsualizar" />
+                <div class="textocrear">
+                    <h1 class="h1crear">Aquí podrás crear tus propios <span class="textverde"> GIFOS</span>
+                    </h1>
+                    <h3 class="h3crear">¡Crea tu GIFO en sólo 3 pasos! <br>(sólo necesitas una cámara para grabar un video)</h3>
+                </div>
+            </div>
+            <div class="pelicula" id="pelicula"></div>
+        </div>
+        <div class="pasoapaso" id="pasoapaso">
+            <div class="estado" id="estado">
+                <div class="uno" id="uno">1</div>
+                <div class="dos" id="dos">2</div>
+                <div class="tres" id="tres">3</div>
+            </div>
+            <div class="reloj" id="reloj"></div>
+        </div>
+        <div class="lineacrear" id="lineacrear"></div>
+        <div class="botoncrear" id="botoncrear">COMENZAR</div>
+    </div>
+    <footer class="footer" id="footer">
+        <p class="compartiren">Compartir en:</p>
+        <div class="redsocial">
+            <div class="iconofacebook" id="iconofacebook"></div>
+            <div class="iconotwitter" id="iconotwitter"></div>
+            <div class="iconoinstagram" id="iconoinstagram"></div>
+        </div>
+        <p class="derechos">© GIFOS 2020 All Rights Reserved.</p>
+    </footer>
+    <div class="lineacolorfondo"></div>
+    <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/modo.js"></script>
+    <script src="js/descargar.js"></script>
+    <script src="js/maximizar.js"></script>
+    <script src="js/favoritos.js"></script>
+    <script src="js/crear.js"></script>
+    <script src="js/misgifos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js"></script>
+</body>
+
+</html>
